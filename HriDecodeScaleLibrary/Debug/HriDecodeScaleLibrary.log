@@ -1,0 +1,50 @@
+﻿  HriDecodeScaleLibrary.cpp
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(19): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(51): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(52): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(120): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(121): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(122): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(177): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(178): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(179): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(234): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(235): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(236): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(286): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(287): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(288): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(343): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(344): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(345): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(400): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(401): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(402): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(457): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(458): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(515): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+  HriDecodeScaleLibrary.vcxproj -> D:\YNZZ_Info\FFMpegUsage\MyTestFFMpeg40\Debug\HriDecodeScaleLibrary.exe
+  HriDecodeScaleLibrary.vcxproj -> D:\YNZZ_Info\FFMpegUsage\MyTestFFMpeg40\Debug\HriDecodeScaleLibrary.pdb (Partial PDB)

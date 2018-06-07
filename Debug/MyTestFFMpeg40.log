@@ -1,0 +1,17 @@
+﻿  readDecodeScale.c
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(33): warning C4018: “>”: 有符号/无符号不匹配
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(123): warning C4013: “av_get_pix_fmt_name”未定义；假设外部返回 int
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(130): warning C4013: “av_image_copy”未定义；假设外部返回 int
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(123): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(105): warning C4101: “buf”: 未引用的局部变量
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(257): warning C4013: “av_image_alloc”未定义；假设外部返回 int
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(175): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(182): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(190): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(275): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 3 拥有了类型“int”
+  MyTestFFMpeg40.vcxproj -> D:\YNZZ_Info\FFMpegUsage\MyTestFFMpeg40\Debug\MyTestFFMpeg40.exe
+  MyTestFFMpeg40.vcxproj -> D:\YNZZ_Info\FFMpegUsage\MyTestFFMpeg40\Debug\MyTestFFMpeg40.pdb (Partial PDB)
