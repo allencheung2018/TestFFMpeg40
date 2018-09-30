@@ -1,0 +1,102 @@
+﻿  UseMediaConvertor.cpp
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\usemediaconvertor.cpp(38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\usemediaconvertor.cpp(39): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“unsigned __int64”
+  d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\usemediaconvertor.cpp(39): note: 请考虑在格式字符串中使用“%zu”
+  MediaConvertor.cpp
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(91): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+  d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\include\libavcodec\avcodec.h(4755): note: 参见“avcodec_decode_video2”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(140): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(147): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(189): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(128): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(178): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 3 拥有了类型“int64_t”
+  d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(178): note: 请考虑在格式字符串中使用“%lld”
+  d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(178): note: 请考虑在格式字符串中使用“%Id”
+  d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(178): note: 请考虑在格式字符串中使用“%I64d”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(197): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(335): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(264): warning C4101: “ret”: 未引用的局部变量
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(375): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(401): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(354): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“uint64_t”
+  d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(354): note: 请考虑在格式字符串中使用“%lld”
+  d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(354): note: 请考虑在格式字符串中使用“%Id”
+  d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(354): note: 请考虑在格式字符串中使用“%I64d”
+  HriDecodeScaleLibrary.cpp
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(32): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(38): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(19): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(64): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(51): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(52): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(134): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(155): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(165): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(121): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(122): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(123): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(191): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(212): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(222): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(178): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(179): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(180): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(248): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(269): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(235): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(236): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(237): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(300): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(321): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(331): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(287): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(288): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(289): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(357): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(378): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(388): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(344): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(345): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(346): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(414): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(435): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(445): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(401): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(402): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(403): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(471): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(492): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(502): error C2660: “decodeScaleMedia”: 函数不接受 7 个参数
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(458): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“std::thread::id”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(460): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\hridecodescalelibrary.cpp(516): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+  DataUtil.cpp
+  正在生成代码...
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\hridecodescalelibrary\mediaconvertor.cpp(122): warning C4715: “decode”: 不是所有的控件路径都返回值

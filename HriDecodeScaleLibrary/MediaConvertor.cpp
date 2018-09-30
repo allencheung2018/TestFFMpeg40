@@ -210,7 +210,7 @@ MediaConvertor::~MediaConvertor()
 
 MediaConvertor::MediaConvertor(int fmt, int width, int height)
 {
-	verName = "0.0.1";
+	verName = "0.0.2";
 	widthOut = width;
 	heightOut = height;
 	switch (fmt)
@@ -259,7 +259,7 @@ void MediaConvertor::releaseParam()
 	printf("releaseParam:%d\n", decodeFlag);
 }
 
-int MediaConvertor::manageFrame(int playType, uint8_t * src, int iLen, uint8_t * out, int & oLen, float &ifps)
+int MediaConvertor::manageFrame(int playType, uint8_t *src, int iLen, uint8_t *out, int &oWidth, int &oHeight, float &ifps)
 {
 	int ret;
 	
@@ -328,6 +328,8 @@ int MediaConvertor::manageFrame(int playType, uint8_t * src, int iLen, uint8_t *
 					video_dec_ctx, widthOut, heightOut, pixFmtOut, &ifps);
 			}
 			ifps = fps;
+			oWidth = widthOut;
+			oHeight = heightOut;
 		}
 	}
 	int is = imageQueue->size();
@@ -336,7 +338,6 @@ int MediaConvertor::manageFrame(int playType, uint8_t * src, int iLen, uint8_t *
 	{
 		BufData image = imageQueue->front();
 		memcpy(out, image.ptr, image.size);
-		oLen = image.size;
 		imageQueue->pop();
 		delete image.ptr;
 		return is;
@@ -357,6 +358,7 @@ bool MediaConvertor::findMediaInfo(uint8_t *inBuf, uint64_t len)
 	size_t avio_ctx_buffer_size = 4096;
 	struct buffer_data bd = { 0 };
 	int ret = 0;
+	int video_stream_idx = -1;
 
 	if (!(fmt_ctx = avformat_alloc_context())) {
 		ret = AVERROR(ENOMEM);
@@ -391,7 +393,6 @@ bool MediaConvertor::findMediaInfo(uint8_t *inBuf, uint64_t len)
 	av_dump_format(fmt_ctx, 0, NULL, 0);
 
 	//找到解码器-初始化解码器参数
-	int video_stream_idx = -1;
 	if (open_codec_context(&video_stream_idx, &video_dec_ctx, fmt_ctx, AVMEDIA_TYPE_VIDEO) >= 0) {
 
 		int win = video_dec_ctx->width;

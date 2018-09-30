@@ -1,0 +1,58 @@
+﻿  readDecodeScale.c
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(33): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(123): warning C4013: “av_get_pix_fmt_name”未定义；假设外部返回 int
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(130): warning C4013: “av_image_copy”未定义；假设外部返回 int
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(123): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(123): warning C4313: “printf”: 格式字符串中的“%s”与“int”类型的参数 1 冲突
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(105): warning C4101: “buf”: 未引用的局部变量
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(201): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(225): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(257): warning C4013: “av_image_alloc”未定义；假设外部返回 int
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(175): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(182): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(190): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(275): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 3 拥有了类型“int”
+d:\ynzz_info\ffmpegusage\mytestffmpeg40\mytestffmpeg40\readdecodescale.c(275): warning C4313: “printf”: 格式字符串中的“%s”与“int”类型的参数 3 冲突
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_get_media_type_string，该符号在函数 open_codec_context 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_strerror，该符号在函数 av_make_error_string 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_malloc，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_freep，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_dict_set，该符号在函数 open_codec_context 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_frame_alloc，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_frame_free，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 avcodec_alloc_context3，该符号在函数 open_codec_context 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 avcodec_free_context，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 avcodec_parameters_to_context，该符号在函数 open_codec_context 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 avcodec_open2，该符号在函数 open_codec_context 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_packet_alloc，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_packet_free，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 avcodec_find_decoder，该符号在函数 open_codec_context 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 avcodec_send_packet，该符号在函数 decode 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 avcodec_receive_frame，该符号在函数 decode 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_parser_init，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_parser_parse2，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_parser_close，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 avio_alloc_context，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 avformat_alloc_context，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 avformat_open_input，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 avformat_find_stream_info，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_find_best_stream，该符号在函数 open_codec_context 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 avformat_close_input，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_dump_format，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 sws_getContext，该符号在函数 main 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 sws_scale，该符号在函数 decode 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_get_pix_fmt_name，该符号在函数 decode 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_image_copy，该符号在函数 decode 中被引用
+readDecodeScale.obj : error LNK2019: 无法解析的外部符号 av_image_alloc，该符号在函数 main 中被引用
+D:\YNZZ_Info\FFMpegUsage\MyTestFFMpeg40\MyTestFFMpeg40\lib\avcodec.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+D:\YNZZ_Info\FFMpegUsage\MyTestFFMpeg40\MyTestFFMpeg40\lib\avformat.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+D:\YNZZ_Info\FFMpegUsage\MyTestFFMpeg40\MyTestFFMpeg40\lib\avutil.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+D:\YNZZ_Info\FFMpegUsage\MyTestFFMpeg40\MyTestFFMpeg40\lib\swscale.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+D:\YNZZ_Info\FFMpegUsage\MyTestFFMpeg40\MyTestFFMpeg40\lib\avdevice.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+D:\YNZZ_Info\FFMpegUsage\MyTestFFMpeg40\MyTestFFMpeg40\lib\postproc.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+D:\YNZZ_Info\FFMpegUsage\MyTestFFMpeg40\MyTestFFMpeg40\lib\avfilter.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+D:\YNZZ_Info\FFMpegUsage\MyTestFFMpeg40\x64\Debug\MyTestFFMpeg40.exe : fatal error LNK1120: 31 个无法解析的外部命令

@@ -27,9 +27,9 @@ int createMediaConvertor(int outFmt, int outWidth, int outHeight) {
 	return indexCls;
 }
 
-int decodeScaleMedia(int id, int playType, uint8_t *src, int len, uint8_t *out, int &oWidth, float &fps) {
+int decodeScaleMedia(int id, int playType, uint8_t *src, int len, uint8_t *out, int &oW, int &oH, float &fps) {
 	MediaConvertor *mcvt = mcvtMap.at(id);
-	return mcvt->manageFrame(playType, src, len, out, oWidth, fps);
+	return mcvt->manageFrame(playType, src, len, out, oW, oH, fps);
 }
 
 int deleteMediaConvertor(int id) {

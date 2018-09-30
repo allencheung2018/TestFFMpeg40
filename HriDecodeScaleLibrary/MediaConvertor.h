@@ -30,7 +30,7 @@ public:
 	MediaConvertor(int fmt, int width, int height);
 	void initParam();
 	void releaseParam();
-	int manageFrame(int playType, uint8_t *src, int len, uint8_t *out, int &oLen, float &fps);
+	int manageFrame(int playType, uint8_t *src, int len, uint8_t *out, int &oWidth, int &oHeight, float &fps);
 	
 private:
 	bool findMediaInfo(uint8_t *inBuf, uint64_t len);
